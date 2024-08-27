@@ -1,7 +1,6 @@
 package com.waitNotifyNotifyAll.example;
 
 import java.util.Queue;
-import java.util.Random;
 
 public class Consumer implements Runnable{
     private Queue<Integer> sharedQueue;

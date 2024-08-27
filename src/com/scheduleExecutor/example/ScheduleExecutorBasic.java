@@ -14,7 +14,7 @@ public class ScheduleExecutorBasic {
             TimeUnit.MILLISECONDS.sleep(1337);
 
             long remainingDelay = future.getDelay(TimeUnit.MILLISECONDS);
-            System.out.printf("Remaining Delay: %sms", remainingDelay);
+            System.out.println("Remaining Delay: "+ remainingDelay);
             //executors doesn't shut down automatically. we need to explicitly call shutdownNow or shutdown
             //shut down method waits for assigned task to get completed then shuts down executor
             executor.shutdown();

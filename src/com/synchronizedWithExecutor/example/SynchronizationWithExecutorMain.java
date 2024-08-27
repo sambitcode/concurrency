@@ -35,7 +35,7 @@ public class SynchronizationWithExecutorMain {
 
         LockCounter lockCounter = new LockCounter();
         // you will see that increment number is always 10000 different run.
-        // This is because increment variable is updated inside synchronized block
+        // This is because increment variable is updated using lock
         ExecutorService executorThird = Executors.newFixedThreadPool(10);
         for(int i = 0; i < 10000; i++) {
             executorThird.submit(lockCounter::lockIncrement);

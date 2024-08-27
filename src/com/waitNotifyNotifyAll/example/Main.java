@@ -6,7 +6,7 @@ import java.util.Queue;
 public class Main {
     public static void main(String[] args){
         Queue<Integer> sharedQueue = new LinkedList<>();
-        Thread prod1 = new Producer(sharedQueue,10);
+        Thread prod1 = new Thread(new Producer(sharedQueue,10));
         Thread prod2 = new Thread(new Producer(sharedQueue,10));
         Thread prod3 = new Thread(new Producer(sharedQueue,10));
         Thread prod4 = new Thread(new Producer(sharedQueue,10));

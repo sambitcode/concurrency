@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class FirstExecutorService {
-    //Working with thread is error prone
+    //Working with thread is error-prone
     //Concurrency api introduces the concept of ExecutorService
     //Executors are capable of managing thread pools,
     // so we don't need to manually create threads and run tasks in an asynchronous fashion

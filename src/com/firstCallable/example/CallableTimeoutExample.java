@@ -1,6 +1,5 @@
 package com.firstCallable.example;
 
-import java.util.Arrays;
 import java.util.concurrent.*;
 
 public class CallableTimeoutExample {

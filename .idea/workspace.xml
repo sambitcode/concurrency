@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dcee66c-4d86-47b1-b378-7e7eef852bb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Concurrency.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/extendThread/example/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/extendThread/example/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/firstCallable/example/CallableTimeoutExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/firstCallable/example/CallableTimeoutExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/firstExecutorService/example/FirstExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/firstExecutorService/example/FirstExecutorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/scheduleExecutor/example/ScheduleExecutorBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scheduleExecutor/example/ScheduleExecutorBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/staticSynchronization/example/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/staticSynchronization/example/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/synchronizedWithExecutor/example/SynchronizationWithExecutorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/synchronizedWithExecutor/example/SynchronizationWithExecutorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/waitNotifyNotifyAll/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/waitNotifyNotifyAll/example/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/waitNotifyNotifyAll/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/waitNotifyNotifyAll/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AtomicIntegerMain.executor": "Run",
+    "Application.CallableExample.executor": "Run",
     "Application.CallableTimeoutExample.executor": "Run",
     "Application.CountDownLatchExample.executor": "Run",
     "Application.FineGrainedLockExample.executor": "Run",
@@ -77,13 +80,26 @@
       <recent name="com.invokeAll.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierExample">
-    <configuration name="AtomicIntegerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atomic.example.AtomicIntegerMain" />
+  <component name="RunManager" selected="Application.ReadWriteLockExample">
+    <configuration name="CallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.firstCallable.example.CallableExample" />
       <module name="Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atomic.example.*" />
+          <option name="PATTERN" value="com.firstCallable.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CallableTimeoutExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.firstCallable.example.CallableTimeoutExample" />
+      <module name="Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.firstCallable.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,25 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cyclicBarrier.example.CyclicBarrierExample" />
-      <module name="Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cyclicBarrier.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReadWriteLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.synchronizedWithExecutor.example.ReadWriteLockExample" />
       <module name="Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.semaphore.example.*" />
+          <option name="PATTERN" value="com.synchronizedWithExecutor.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.semaphore.example.SemaphoreExample" />
+    <configuration name="ScheduleExecutorBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scheduleExecutor.example.ScheduleExecutorBasic" />
       <module name="Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.semaphore.example.*" />
+          <option name="PATTERN" value="com.scheduleExecutor.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CyclicBarrierExample" />
-        <item itemvalue="Application.CountDownLatchExample" />
-        <item itemvalue="Application.AtomicIntegerMain" />
-        <item itemvalue="Application.SemaphoreExample" />
         <item itemvalue="Application.ReadWriteLockExample" />
+        <item itemvalue="Application.CountDownLatchExample" />
+        <item itemvalue="Application.ScheduleExecutorBasic" />
+        <item itemvalue="Application.CallableExample" />
+        <item itemvalue="Application.CallableTimeoutExample" />
       </list>
     </recent_temporary>
   </component>
