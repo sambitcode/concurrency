@@ -10,7 +10,6 @@ public class MyThread extends Thread{
     }
     //overloaded run method
     public void run(String s){
-        //we will write the portion of code here which we want to run in thread
         System.out.println("Current thread "+ Thread.currentThread().getName() +" "+ s);
         System.out.println("very important task running in thread");
     }

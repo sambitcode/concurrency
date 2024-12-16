@@ -8,7 +8,7 @@ public class SynchronizationWithExecutorMain {
     public static void main(String[] args) {
         NonSyncCounter nonSyncCounter = new NonSyncCounter();
         // you will see that increment number is different during different run.
-        // This is because increment variable is used by two threads in WithoutSynchronized class simultaneously
+        // This is because increment variable is used by 10 threads in WithoutSynchronized class simultaneously
         ExecutorService executorFirst = Executors.newFixedThreadPool(10);
         for(int i = 0; i < 10000; i++) {
             executorFirst.submit(nonSyncCounter::increment);

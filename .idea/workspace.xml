@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7dcee66c-4d86-47b1-b378-7e7eef852bb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atomic/example/AtomicIntergerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atomic/example/AtomicIntergerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/extendThread/example/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/extendThread/example/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/firstCallable/example/CallableTimeoutExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/firstCallable/example/CallableTimeoutExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/firstExecutorService/example/FirstExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/firstExecutorService/example/FirstExecutorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/scheduleExecutor/example/ScheduleExecutorBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/scheduleExecutor/example/ScheduleExecutorBasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/staticSynchronization/example/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/staticSynchronization/example/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/firstCallable/example/CallableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/firstCallable/example/CallableExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/synchronizedWithExecutor/example/SynchronizationWithExecutorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/synchronizedWithExecutor/example/SynchronizationWithExecutorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/waitNotifyNotifyAll/example/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/waitNotifyNotifyAll/example/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/waitNotifyNotifyAll/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/waitNotifyNotifyAll/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,7 @@
       <recent name="com.invokeAll.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLockExample">
+  <component name="RunManager" selected="Application.InvokeAllExample">
     <configuration name="CallableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.firstCallable.example.CallableExample" />
       <module name="Concurrency" />
@@ -107,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.countdownlatch.example.CountDownLatchExample" />
+    <configuration name="InvokeAllExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.invokeAll.example.InvokeAllExample" />
       <module name="Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.countdownlatch.example.*" />
+          <option name="PATTERN" value="com.invokeAll.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.synchronizedWithExecutor.example.ReadWriteLockExample" />
+    <configuration name="InvokeAnyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.invokeAny.example.InvokeAnyExample" />
       <module name="Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.synchronizedWithExecutor.example.*" />
+          <option name="PATTERN" value="com.invokeAny.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduleExecutorBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scheduleExecutor.example.ScheduleExecutorBasic" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.waitNotifyNotifyAll.example.Main" />
       <module name="Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scheduleExecutor.example.*" />
+          <option name="PATTERN" value="com.waitNotifyNotifyAll.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadWriteLockExample" />
-        <item itemvalue="Application.CountDownLatchExample" />
-        <item itemvalue="Application.ScheduleExecutorBasic" />
-        <item itemvalue="Application.CallableExample" />
+        <item itemvalue="Application.InvokeAllExample" />
+        <item itemvalue="Application.InvokeAnyExample" />
         <item itemvalue="Application.CallableTimeoutExample" />
+        <item itemvalue="Application.CallableExample" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

@@ -7,7 +7,7 @@ public class AtomicIntergerExample {
 
     public void increment() {
         //instead of synchronize we are using atomic integer
-        // which is atomic in nature and thread safe no no lock or synchronize is required.
+        // which is atomic in nature and thread safe no lock or synchronization is required.
 
         atomicInt.incrementAndGet();
         }

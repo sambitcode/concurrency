@@ -14,6 +14,7 @@ public class CallableExample {
             System.out.println("future done? "+future.isDone());
             System.out.println("future done? "+future.isDone());
             System.out.println("future done? "+future.isDone());
+            // Get the result of the Callable task (blocks if not completed)
             Integer result = future.get();
 
             System.out.println("future done? " + future.isDone());
